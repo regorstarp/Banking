@@ -8,11 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		D072B66522647E1D0041CECC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D072B66422647E1D0041CECC /* AppDelegate.swift */; };
-		D072B66722647E1D0041CECC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D072B66622647E1D0041CECC /* ViewController.swift */; };
-		D072B66A22647E1D0041CECC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D072B66822647E1D0041CECC /* Main.storyboard */; };
+		D072B66722647E1D0041CECC /* ProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D072B66622647E1D0041CECC /* ProductsViewController.swift */; };
 		D072B66C22647E1E0041CECC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D072B66B22647E1E0041CECC /* Assets.xcassets */; };
 		D072B66F22647E1E0041CECC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D072B66D22647E1E0041CECC /* LaunchScreen.storyboard */; };
-		D072B67A22647E1E0041CECC /* BankingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D072B67922647E1E0041CECC /* BankingTests.swift */; };
+		D072B68522647EB80041CECC /* Rates.swift in Sources */ = {isa = PBXBuildFile; fileRef = D072B68422647EB80041CECC /* Rates.swift */; };
+		D072B6872264B49F0041CECC /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = D072B6862264B49F0041CECC /* Transaction.swift */; };
+		D072B6902264BF310041CECC /* Requester.swift in Sources */ = {isa = PBXBuildFile; fileRef = D072B68F2264BF310041CECC /* Requester.swift */; };
+		D072B6922264C2C10041CECC /* ProductsDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D072B6912264C2C10041CECC /* ProductsDataSource.swift */; };
+		D072B6942264C9510041CECC /* TransactionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D072B6932264C9510041CECC /* TransactionsViewController.swift */; };
+		D072B69A2265C52B0041CECC /* RatesRequestTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D072B6992265C52B0041CECC /* RatesRequestTest.swift */; };
+		D072B69E2265C7300041CECC /* TransactionsRequestTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D072B69D2265C7300041CECC /* TransactionsRequestTest.swift */; };
+		D072B6A22265CFDE0041CECC /* CurrencyConverterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D072B6A12265CFDE0041CECC /* CurrencyConverterTest.swift */; };
+		D0FA495E2266375A00DC26C5 /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FA495D2266375A00DC26C5 /* APIRequest.swift */; };
+		D0FA496B22663E4400DC26C5 /* DijkstraAlgorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FA496822663E4400DC26C5 /* DijkstraAlgorithm.swift */; };
+		D0FA496C22663E4400DC26C5 /* CurrencyConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FA496922663E4400DC26C5 /* CurrencyConverter.swift */; };
+		D0FA496D22663E4400DC26C5 /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FA496A22663E4400DC26C5 /* Graph.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,14 +38,24 @@
 /* Begin PBXFileReference section */
 		D072B66122647E1D0041CECC /* Banking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Banking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D072B66422647E1D0041CECC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D072B66622647E1D0041CECC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D072B66922647E1D0041CECC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D072B66622647E1D0041CECC /* ProductsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewController.swift; sourceTree = "<group>"; };
 		D072B66B22647E1E0041CECC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D072B66E22647E1E0041CECC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D072B67022647E1E0041CECC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D072B67522647E1E0041CECC /* BankingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BankingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D072B67922647E1E0041CECC /* BankingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankingTests.swift; sourceTree = "<group>"; };
 		D072B67B22647E1E0041CECC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D072B68422647EB80041CECC /* Rates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rates.swift; sourceTree = "<group>"; };
+		D072B6862264B49F0041CECC /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		D072B68F2264BF310041CECC /* Requester.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Requester.swift; sourceTree = "<group>"; };
+		D072B6912264C2C10041CECC /* ProductsDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsDataSource.swift; sourceTree = "<group>"; };
+		D072B6932264C9510041CECC /* TransactionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsViewController.swift; sourceTree = "<group>"; };
+		D072B6992265C52B0041CECC /* RatesRequestTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatesRequestTest.swift; sourceTree = "<group>"; };
+		D072B69D2265C7300041CECC /* TransactionsRequestTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsRequestTest.swift; sourceTree = "<group>"; };
+		D072B6A12265CFDE0041CECC /* CurrencyConverterTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyConverterTest.swift; sourceTree = "<group>"; };
+		D0FA495D2266375A00DC26C5 /* APIRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
+		D0FA496822663E4400DC26C5 /* DijkstraAlgorithm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DijkstraAlgorithm.swift; sourceTree = "<group>"; };
+		D0FA496922663E4400DC26C5 /* CurrencyConverter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyConverter.swift; sourceTree = "<group>"; };
+		D0FA496A22663E4400DC26C5 /* Graph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Graph.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +98,9 @@
 			isa = PBXGroup;
 			children = (
 				D072B66422647E1D0041CECC /* AppDelegate.swift */,
-				D072B66622647E1D0041CECC /* ViewController.swift */,
-				D072B66822647E1D0041CECC /* Main.storyboard */,
+				D0FA49592266319200DC26C5 /* Network */,
+				D0FA495A226631A900DC26C5 /* Screens */,
+				D072B6882264B4A50041CECC /* Models */,
 				D072B66B22647E1E0041CECC /* Assets.xcassets */,
 				D072B66D22647E1E0041CECC /* LaunchScreen.storyboard */,
 				D072B67022647E1E0041CECC /* Info.plist */,
@@ -90,10 +111,67 @@
 		D072B67822647E1E0041CECC /* BankingTests */ = {
 			isa = PBXGroup;
 			children = (
-				D072B67922647E1E0041CECC /* BankingTests.swift */,
+				D072B6992265C52B0041CECC /* RatesRequestTest.swift */,
+				D072B69D2265C7300041CECC /* TransactionsRequestTest.swift */,
 				D072B67B22647E1E0041CECC /* Info.plist */,
+				D072B6A12265CFDE0041CECC /* CurrencyConverterTest.swift */,
 			);
 			path = BankingTests;
+			sourceTree = "<group>";
+		};
+		D072B6882264B4A50041CECC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D072B68422647EB80041CECC /* Rates.swift */,
+				D072B6862264B49F0041CECC /* Transaction.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D072B6A62266314E0041CECC /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				D072B66622647E1D0041CECC /* ProductsViewController.swift */,
+				D072B6912264C2C10041CECC /* ProductsDataSource.swift */,
+			);
+			path = Product;
+			sourceTree = "<group>";
+		};
+		D0FA49592266319200DC26C5 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				D072B68F2264BF310041CECC /* Requester.swift */,
+				D0FA495D2266375A00DC26C5 /* APIRequest.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		D0FA495A226631A900DC26C5 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				D0FA495B226631B500DC26C5 /* Transactions */,
+				D072B6A62266314E0041CECC /* Product */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		D0FA495B226631B500DC26C5 /* Transactions */ = {
+			isa = PBXGroup;
+			children = (
+				D072B6932264C9510041CECC /* TransactionsViewController.swift */,
+				D0FA495C226631C900DC26C5 /* Utilities */,
+			);
+			path = Transactions;
+			sourceTree = "<group>";
+		};
+		D0FA495C226631C900DC26C5 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				D0FA496922663E4400DC26C5 /* CurrencyConverter.swift */,
+				D0FA496822663E4400DC26C5 /* DijkstraAlgorithm.swift */,
+				D0FA496A22663E4400DC26C5 /* Graph.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,7 +257,6 @@
 			files = (
 				D072B66F22647E1E0041CECC /* LaunchScreen.storyboard in Resources */,
 				D072B66C22647E1E0041CECC /* Assets.xcassets in Resources */,
-				D072B66A22647E1D0041CECC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,8 +274,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D072B66722647E1D0041CECC /* ViewController.swift in Sources */,
+				D072B66722647E1D0041CECC /* ProductsViewController.swift in Sources */,
+				D0FA496C22663E4400DC26C5 /* CurrencyConverter.swift in Sources */,
+				D072B6922264C2C10041CECC /* ProductsDataSource.swift in Sources */,
+				D072B6902264BF310041CECC /* Requester.swift in Sources */,
+				D072B68522647EB80041CECC /* Rates.swift in Sources */,
+				D0FA495E2266375A00DC26C5 /* APIRequest.swift in Sources */,
+				D072B6872264B49F0041CECC /* Transaction.swift in Sources */,
+				D0FA496D22663E4400DC26C5 /* Graph.swift in Sources */,
 				D072B66522647E1D0041CECC /* AppDelegate.swift in Sources */,
+				D0FA496B22663E4400DC26C5 /* DijkstraAlgorithm.swift in Sources */,
+				D072B6942264C9510041CECC /* TransactionsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,7 +292,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D072B67A22647E1E0041CECC /* BankingTests.swift in Sources */,
+				D072B6A22265CFDE0041CECC /* CurrencyConverterTest.swift in Sources */,
+				D072B69E2265C7300041CECC /* TransactionsRequestTest.swift in Sources */,
+				D072B69A2265C52B0041CECC /* RatesRequestTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,14 +309,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D072B66822647E1D0041CECC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D072B66922647E1D0041CECC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D072B66D22647E1E0041CECC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
